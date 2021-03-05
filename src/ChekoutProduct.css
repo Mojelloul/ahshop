@@ -1,0 +1,25 @@
+.checkoutProduct{
+    display: flex;
+}
+.checkoutProduct__image{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+.chekoutproduct__info{
+    padding-left: 20px;
+}
+.chekoutproduct__info > button{
+    background: rgb(247, 32, 32);
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: rgb(253, 84, 17) rgb(219, 6, 6) rgb(250, 74, 30);
+    color: black;
+}
+.chekoutproduct__rating{
+    display: flex;
+}
+.chekoutproduct__title{
+    font-size: 17px;
+    font-weight:800 ;
+}
